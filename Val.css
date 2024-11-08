@@ -1,0 +1,122 @@
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+}
+
+header h1 {
+    padding-top: 15px;
+    font-size: 15px;
+    /* Reducimos el tamaño del texto */
+    margin: 0;
+}
+
+.main-title {
+    font-size: 48px;
+    margin: 0px, 40px;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+}
+
+.button {
+    background-color: #ff4b4b;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 8px 16px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    display: block;
+    /* Alineamos el botón debajo de la barra de búsqueda */
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button i {
+    margin-left: 10px;
+}
+
+.search-bar {
+    background-color: #333333;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 18px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    width: 40%;
+    display: block;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    background-color: #2a2a2a;
+    border-radius: 10px;
+    margin: 40px;
+    padding: 20px;
+    width: 300px;
+}
+
+.card img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.card h2 {
+    margin: 10px 0;
+}
+
+.card p {
+    color: #cccccc;
+    font-size: 14px;
+    text-align: left;
+}
+
+.card .links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.card .links a {
+    color: #ff4b4b;
+    text-decoration: none;
+}
+
+.card h3 {
+    color: #ff4b4b; /* Cambiamos el color a rojo */
+    font-size: 16px; /* Hacemos el texto un poco más pequeño */
+    margin: 5px 0; /* Ajustamos el margen para reducir espacio */
+    font-weight: bold; /* Hacemos que el rol destaque */
+}
+
+.card ul {
+    list-style: none; /* Quitamos el estilo de lista predeterminado */
+    padding-left: 0; /* Alineamos las habilidades a la izquierda */
+    text-align: left; /* Alineamos el texto a la izquierda */
+    color: #ff4b4b; /* Cambiamos el color de las habilidades a rojo */
+    font-size: 14px; /* Hacemos el texto un poco más pequeño */
+    margin: 10px 0 0; /* Ajustamos el margen para que esté cerca del texto anterior */
+}
+
+.card ul li {
+    margin-bottom: 5px; /* Añadimos un poco de espacio entre las habilidades */
+}
